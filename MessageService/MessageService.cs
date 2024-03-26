@@ -8,7 +8,7 @@ namespace MessageService
         public MessageService()
         {
             InitializeComponent();
-            this.timerMessage.Interval = 6000;
+            this.timerMessage.Interval = 60000;
             this.timerMessage.Elapsed += new System.Timers.ElapsedEventHandler(SendMessage); //timerMessage_Elapsed是到达时间的时候执行事件的函数
         }
 
